@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box; 
+}
+
+ 
+body{
+    background-image: url("http://www.freeppt.net/background/film-movies-screen-backgrounds-for-powerpoint.jpg");
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 36px;
+    color: white;
+    background-size: 150%;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+
+   /* background-size: cover;*/
+
+    
+   
+}
+
+#movie-form{
+    display: inline-block;
+    color: white;
+    margin-top: 250px;
+    
+}
+
+#search{
+    font-size: 24px;
+}
+
+input {
+    border-color: rgb(120, 120, 203);
+    opacity: 65%;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+
+#remove{
+    margin: auto 0;
+    background-color: red;
+    color: white;
+}
+
+
+ul{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px black;
+    opacity: 75%;
+}
+   
+
+li{
+    font-weight: bold;
+    color: gold;
+    padding: 0;
+    margin: auto 0;
+
+}
+
+
+
+#submit:hover{
+   background-color: rgb(113, 126, 244);
+}
+
+#remove:hover{
+    background-color: rgb(113, 126, 244);
+}
